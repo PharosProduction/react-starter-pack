@@ -1,0 +1,28 @@
+{
+  "name": "react-starter-pack",
+  "version": "0.1.0",
+  "description": "React starter pack",
+  "author": "Dmytro Nasyrov (dmytro@pharosproduction.com) @ Pharos Production Inc.",
+  "license": "Pharos Production Inc.",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "dev": "NODE_ENV=development node server.js",
+    "build": "NODE_ENV=production next build",
+    "start": "NODE_ENV=production node server.js"
+  },
+  "dependencies": {
+    "dotenv-webpack": "^1.7.0",
+    "express": "^4.17.1",
+    "next": "9.0.5",
+    "nprogress": "^0.2.0",
+    "prop-types": "^15.7.2",
+    "react": "16.9.0",
+    "react-dom": "16.9.0",
+    "react-transition-group": "^4.3.0",
+    "styled-components": "^4.3.2"
+  },
+  "devDependencies": {
+    "babel-plugin-module-resolver": "^3.2.0"
+  }
+}
