@@ -19,6 +19,10 @@ There are 3 commands in `package.json`, you can use them for:
 2. `npm run build`: build the app's package in PRODUCTION mode;
 3. `npm start`: start the app in PRODUCTION mode.
 
+## Useful links
+
+All the details about Next.JS you can find here: [Next.JS official documentation](https://nextjs.org/docs)
+
 ## Contributing/suggestions
 
 Submit a pull request/log an issue.
